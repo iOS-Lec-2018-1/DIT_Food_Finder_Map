@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		058F274720BEE6CC00271381 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058F274620BEE6CC00271381 /* MapViewController.swift */; };
 		058F274A20BEE70300271381 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 058F274920BEE70300271381 /* MapKit.framework */; };
+		05F6B6BA20C0283F00A1E9AA /* MapTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F6B6B920C0283F00A1E9AA /* MapTableViewCell.swift */; };
+		05F6B6BC20C037B400A1E9AA /* AddressTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F6B6BB20C037B400A1E9AA /* AddressTableViewCell.swift */; };
+		05F6B6BE20C0397200A1E9AA /* TelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F6B6BD20C0397200A1E9AA /* TelTableViewCell.swift */; };
+		05F6B6C020C03A3E00A1E9AA /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F6B6BF20C03A3E00A1E9AA /* MenuTableViewCell.swift */; };
 		641A0F0520BBDA36004ECC5A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641A0F0420BBDA36004ECC5A /* DetailViewController.swift */; };
 		648FAC0520B29D5B00ACCE56 /* FoodStoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648FAC0420B29D5B00ACCE56 /* FoodStoreTableViewCell.swift */; };
 		741C17E520AC061400FE6E1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741C17E420AC061400FE6E1E /* AppDelegate.swift */; };
@@ -21,6 +25,10 @@
 /* Begin PBXFileReference section */
 		058F274620BEE6CC00271381 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		058F274920BEE70300271381 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		05F6B6B920C0283F00A1E9AA /* MapTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTableViewCell.swift; sourceTree = "<group>"; };
+		05F6B6BB20C037B400A1E9AA /* AddressTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressTableViewCell.swift; sourceTree = "<group>"; };
+		05F6B6BD20C0397200A1E9AA /* TelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelTableViewCell.swift; sourceTree = "<group>"; };
+		05F6B6BF20C03A3E00A1E9AA /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
 		641A0F0420BBDA36004ECC5A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		648FAC0420B29D5B00ACCE56 /* FoodStoreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodStoreTableViewCell.swift; sourceTree = "<group>"; };
 		741C17E120AC061400FE6E1E /* UiTableViewController Test 02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UiTableViewController Test 02.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,6 +82,10 @@
 			children = (
 				741C17E420AC061400FE6E1E /* AppDelegate.swift */,
 				741C17E820AC061400FE6E1E /* Main.storyboard */,
+				05F6B6BF20C03A3E00A1E9AA /* MenuTableViewCell.swift */,
+				05F6B6BD20C0397200A1E9AA /* TelTableViewCell.swift */,
+				05F6B6BB20C037B400A1E9AA /* AddressTableViewCell.swift */,
+				05F6B6B920C0283F00A1E9AA /* MapTableViewCell.swift */,
 				058F274620BEE6CC00271381 /* MapViewController.swift */,
 				641A0F0420BBDA36004ECC5A /* DetailViewController.swift */,
 				648FAC0420B29D5B00ACCE56 /* FoodStoreTableViewCell.swift */,
@@ -158,7 +170,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				741C17E520AC061400FE6E1E /* AppDelegate.swift in Sources */,
+				05F6B6BE20C0397200A1E9AA /* TelTableViewCell.swift in Sources */,
 				648FAC0520B29D5B00ACCE56 /* FoodStoreTableViewCell.swift in Sources */,
+				05F6B6BA20C0283F00A1E9AA /* MapTableViewCell.swift in Sources */,
+				05F6B6BC20C037B400A1E9AA /* AddressTableViewCell.swift in Sources */,
+				05F6B6C020C03A3E00A1E9AA /* MenuTableViewCell.swift in Sources */,
 				741C17F720AC06C400FE6E1E /* MyTableViewController.swift in Sources */,
 				058F274720BEE6CC00271381 /* MapViewController.swift in Sources */,
 				641A0F0520BBDA36004ECC5A /* DetailViewController.swift in Sources */,

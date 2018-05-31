@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import MapKit
 
 class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
@@ -32,32 +33,26 @@ class DetailViewController: UIViewController, UITableViewDelegate, UITableViewDa
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 3
+        return 4
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "detailCell", for: indexPath)
-        
-//        if indexPath.row == 0 {
-//            cell.textLabel?.text = "주소 : " + local1
-//            return cell
-//        } else if indexPath.row == 1 {
-//            cell.textLabel?.text = "전화번호 : " + tel1
-//            return cell
-//        } else {
-//            cell.textLabel?.text = "메뉴 : " + menu
-//            return cell
-//        }
         
         switch indexPath.row {
         case 0:
-            cell.textLabel?.text = "주소 : " + local1
+            let cell = tableView.dequeueReusableCell(withIdentifier: "AddressCell", for: indexPath) as! AddressTableViewCell
+            cell.addressLabel.text = "주소 : " + local1
             return cell
         case 1:
-            cell.textLabel?.text = "전화번호 : " + tel1
+            let cell = tableView.dequeueReusableCell(withIdentifier: "TelCell", for: indexPath) as! TelTableViewCell
+            cell.telLabel?.text = "전화번호 : " + tel1
             return cell
-        default:
-            cell.textLabel?.text = "메뉴 : " + menu
+        case 2:
+            let cell = tableView.dequeueReusableCell(withIdentifier: "MenuCell", for: indexPath) as! MenuTableViewCell
+            cell.menuLabel?.text = "메뉴 : " + menu
+            return cell
+        default :
+            let cell = tableView.dequeueReusableCell(withIdentifier: "MapCell", for: indexPath) as! MapTableViewCell
             return cell
         }
     }
